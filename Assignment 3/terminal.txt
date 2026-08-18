@@ -1,0 +1,53 @@
+(.venv) C:\VITP Academics\Sem 5\MLOps\Assignment 3\src>python pipeline.py
+Dataset Loaded Successfully
+
+First 5 Rows:
+   PassengerId  Survived
+0          892         0
+1          893         0
+2          894         0
+3          895         0
+4          896         1
+
+Dataset Shape:
+(418, 2)
+
+Dataset Information:
+<class 'pandas.DataFrame'>
+RangeIndex: 418 entries, 0 to 417
+Data columns (total 2 columns):
+ #   Column       Non-Null Count  Dtype
+---  ------       --------------  -----
+ 0   PassengerId  418 non-null    int64
+ 1   Survived     418 non-null    int64
+dtypes: int64(2)
+memory usage: 6.7 KB
+None
+
+Missing Values:
+PassengerId    0
+Survived       0
+dtype: int64
+
+Duplicate Rows: 0
+
+Numerical Features:
+['PassengerId']
+
+Categorical Features:
+[]
+C:\VITP Academics\Sem 5\MLOps\Assignment 3\.venv\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:782: UserWarning: k=10 is greater than n_features=1. All the features will be returned.
+  warnings.warn(
+Original Shape : (418, 1)
+Transformed Shape : (418, 1)
+
+Transformed Dataset Saved.
+Pipeline Saved Successfully.
+
+Pipeline Loaded Successfully.
+Sample Data Transformed Successfully.
+[[-1.72791209]
+ [-1.71962474]
+ [-1.71133739]
+ [-1.70305005]
+ [-1.6947627 ]]

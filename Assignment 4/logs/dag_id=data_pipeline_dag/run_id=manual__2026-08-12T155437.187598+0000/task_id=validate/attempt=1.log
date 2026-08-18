@@ -1,0 +1,22 @@
+{"timestamp":"2026-08-12T16:03:25.323067","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-08-12T16:03:25.330419","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-12T16:03:31.540338Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.553887Z","level":"info","event":"DATA VALIDATION REPORT","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.555768Z","level":"info","event":"======================","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.557534Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.558841Z","level":"info","event":"Total Records: 8","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.561541Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.562584Z","level":"info","event":"Missing Values:","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.563349Z","level":"info","event":"id            0","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.564947Z","level":"info","event":"name          0","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.570218Z","level":"info","event":"age           1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.576020Z","level":"info","event":"salary        1","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.577307Z","level":"info","event":"department    0","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.579200Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.582837Z","level":"info","event":"Total Missing Values: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.584031Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.586111Z","level":"info","event":"Invalid Records: 0","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.588062Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.589217Z","level":"info","event":"Validation Status: Completed","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.590304Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-12T16:03:31.538620","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

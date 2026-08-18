@@ -1,0 +1,18 @@
+
+DATA VALIDATION REPORT
+======================
+
+Total Records: 8
+
+Missing Values:
+id            0
+name          0
+age           1
+salary        1
+department    0
+
+Total Missing Values: 2
+
+Invalid Records: 0
+
+Validation Status: Completed

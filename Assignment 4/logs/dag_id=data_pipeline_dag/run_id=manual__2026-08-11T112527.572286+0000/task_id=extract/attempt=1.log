@@ -1,0 +1,12 @@
+{"timestamp":"2026-08-11T11:29:17.247626","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-08-11T11:29:17.277172","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-11T11:29:20.839063Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:20.850157Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:20.851611Z","level":"info","event":"Current task name:extract","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:20.852568Z","level":"info","event":"Dag name:data_pipeline_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:21.138872Z","level":"info","event":"Data extracted successfully.","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:21.144692Z","level":"info","event":"Number of records: 8","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:21.139559","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2026-08-11T11:29:21.380846Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:21.382613Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2026-08-11T11:29:21.383513Z","level":"info","event":"Task operator:<Task(PythonOperator): extract>","chan":"stdout","logger":"task"}
