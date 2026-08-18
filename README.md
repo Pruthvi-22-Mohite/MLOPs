@@ -1,94 +1,29 @@
 # MLOPs Assignments
 
-This repository contains the work completed for the MLOPs coursework, organized by assignment.
-
-## Repository Structure
-
-- Assignment 1: Dataset versioning with DVC and data storage setup
-- Assignment 2: ML experiments and model training using scikit-learn and MLflow
-- Assignment 3: Data preprocessing, feature selection, and model pipeline development
-- Assignment 4: Airflow-based data pipeline orchestration
+This repository contains my coursework for MLOps, organized by assignment.
 
 ## Assignments
 
-### Assignment 1
+- Assignment 1: DVC-based dataset versioning
+- Assignment 2: ML experiments and model tracking with MLflow
+- Assignment 3: Data preprocessing and feature selection pipeline
+- Assignment 4: Airflow workflow orchestration
 
-Focus areas:
-- dataset versioning
-- DVC configuration
-- storage of versioned data artifacts
+## Structure
 
-Relevant folders:
-- Assignment 1/DatasetVersioning
-- Assignment 1/dvc-storage
+- Assignment 1/
+- Assignment 2/
+- Assignment 3/
+- Assignment 4/
 
-### Assignment 2
+## Workflow
 
-Focus areas:
-- model training
-- model comparison
-- experiment tracking with MLflow
-- evaluation reports and saved models
-
-Relevant folders:
-- Assignment 2/data
-- Assignment 2/models
-- Assignment 2/notebooks
-- Assignment 2/src
-- Assignment 2/mlruns
-
-### Assignment 3
-
-Focus areas:
-- preprocessing pipelines
-- feature selection
-- transformed data generation
-- model pipeline serialization
-
-Relevant folders:
-- Assignment 3/data
-- Assignment 3/models
-- Assignment 3/output
-- Assignment 3/src
-
-### Assignment 4
-
-Focus areas:
-- Apache Airflow DAG orchestration
-- extraction and validation pipeline
-- reporting and processing workflow
-- dockerized workflow setup
-
-Relevant folders:
-- Assignment 4/dags
-- Assignment 4/data
-- Assignment 4/config
-- Assignment 4/output
-- Assignment 4/plugins
+1. Open the relevant assignment folder.
+2. Create a virtual environment if needed.
+3. Install dependencies from that folder's requirements file.
+4. Run the scripts or pipelines for the assignment.
 
 ## Notes
 
-- This repository intentionally ignores generated artifacts such as virtual environments, Python cache files, log files, MLflow runs, and output folders.
-- Local environment folders such as .venv are not tracked in Git.
-
-## Suggested Workflow
-
-1. Clone the repository.
-2. Open the assignment folder you want to work on.
-3. Create and activate a virtual environment if needed.
-4. Install dependencies from the relevant requirements file.
-5. Run the training or pipeline scripts for the assignment.
-
-## Git
-
-To push updates:
-
-```bash
-git add .
-git commit -m "Your commit message"
-git push
-```
-
-## License
-
-This project is for academic coursework and learning purposes.
+- Generated artifacts and local environment folders are not tracked in Git.
+- This project is for academic learning and coursework.
