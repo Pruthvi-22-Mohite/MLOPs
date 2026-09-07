@@ -8,7 +8,7 @@ This repository contains my coursework for MLOps, organized by assignment.
 - Assignment 2: ML experiments and model tracking with MLflow
 - Assignment 3: Data preprocessing and feature selection pipeline
 - Assignment 4: Airflow workflow orchestration
-- Assignment 5 – Create REST API Using FastAPI
+- Assignment 5:Create REST API Using FastAPI
 
 ## Workflow
 
