@@ -9,6 +9,13 @@ This repository contains my coursework for MLOps, organized by assignment.
 - Assignment 3: Data preprocessing and feature selection pipeline
 - Assignment 4: Airflow workflow orchestration
 
+## Structure
+
+- Assignment 1/
+- Assignment 2/
+- Assignment 3/
+- Assignment 4/
+
 ## Workflow
 
 1. Open the relevant assignment folder.
