@@ -17,6 +17,12 @@ This repository contains my coursework for MLOps, organized by assignment.
 3. Install dependencies from that folder's requirements file.
 4. Run the scripts or pipelines for the assignment.
 
+## Documentation
+
+Each assignment and its working directories has a README describing its purpose,
+contents, and usage. Generated files such as experiment databases, logs, caches,
+and trained artifacts are documented where they are produced.
+
 ## Notes
 
 - Generated artifacts and local environment folders are not tracked in Git.
