@@ -4,10 +4,16 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "Assignment 7/**"
+      - ".github/workflows/ci-cd.yml"
 
   pull_request:
     branches:
       - main
+    paths:
+      - "Assignment 7/**"
+      - ".github/workflows/ci-cd.yml"
 
 jobs:
 
