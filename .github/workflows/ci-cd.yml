@@ -31,9 +31,9 @@ jobs:
           pip install -r "Assignment 7/requirements.txt"
 
       - name: Run Unit Tests
+        working-directory: Assignment 7
         run: |
-          pytest -v "Assignment 7/tests"
-
+          pytest -v
   deploy:
     name: Deploy Application
     needs: test
