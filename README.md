@@ -10,7 +10,7 @@ This repository contains my coursework for MLOps, organized by assignment.
 - Assignment 4: Airflow workflow orchestration
 - Assignment 5: Create REST API Using FastAPI
 - Assignment 6: Model deployment with Flask and Docker
-- Assignment 7 – CI/CD Pipeline Using GitHub Actions
+- Assignment 7: CI/CD Pipeline Using GitHub Actions
 
 ## Workflow
 
